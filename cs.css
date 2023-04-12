@@ -82,16 +82,17 @@ form {
 div.top-text {
 	padding-top: 15vh;
 	padding-left: 3vw;
+	line-height: 50px;
 }
 
 div.form{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	column-gap: 20px;
+	column-gap: 10px;
 	padding-right: 20px;
-	padding-top: 20px;
-	row-gap: 20px;
+	padding-top: .5em;
+	row-gap: 10px;
 	height: 100%; 
 }
 
@@ -102,9 +103,9 @@ div.input {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	padding-top: 15px;
+	padding-top: .5em;
 	padding-left: 3vw;
-	width: 25%;
+	width: 35%;
 	font-size: 20px;
 }
 
@@ -139,21 +140,29 @@ button.create{
 	padding-left: 3vw;
 }
 
+button {
+	font-size: 1.5em;
+	color: white;
+}
+
 h1 {
 	font-family: Norse;
-	font-size: 5em;
+	font-size: 3em;
 }
 
 h2 {
 	font-weight: bold;
 	font-size: 2.5em;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 label {
-	color: black;
+	color: white;
 	font-weight: bold;
+	padding-bottom: .5em;
 }
 #first_name, #last_name, #user_email, #user_phone, #user_password {
 	background-color: rgb(98, 89, 89);
 	outline: black 1px solid;
+	color: white;
+	font-size: 20px;
 }
