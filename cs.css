@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset Above*/
+/* ----------------------------------------------------------------------------- */
+body {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	width: 75vw;
+	height: 80vh;
+}
+img {
+	height: 10vh;
+}
+div.container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+div.lside-container {
+	height: 100%;
+	width: 33%;
+	background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
+}
+div.rside-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: auto;
+	width: 66%;
+	background-color: gray;
+}
+form {
+	margin-top: 5vh;
+	height: 100%;
+}
+
+div.top-text {
+	padding-top: 15vh;
+	padding-left: 3vw;
+}
+
+div.form{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	row-gap: 20px;
+	height: 100%; 
+}
+
+#form-title {
+	padding-left: 3vw;
+}
+div.input {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-top: 15px;
+	padding-left: 3vw;
+	width: 25%;
+	font-size: 20px;
+}
+
+div.title {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: lightgrey;
+	top: 20vh;
+	gap: 1vw;
+	opacity: 40%;
+	height: auto;
+	padding: 15px 0;
+
+}
+button.create{
+	position: static;
+	padding: 20px 50px 20px 50px;
+	border-radius: 10px;
+	background-color: #596D48;
+}
+#logintext {
+	padding-left: 3vw;
+	padding-bottom: 10vh;
+	padding-top: 3vh;
+	font-size: 2rem;
+}
+.form-btn {
+	padding-left: 3vw;
+}
+
+h1 {
+	font-family: Norse;
+	font-size: 5em;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 2.5em;
+	padding-bottom: 40px;
+}
+label {
+	color: black;
+	font-weight: bold;
+}
+#first_name, #last_name, #user_email, #user_phone, #user_password {
+	background-color: rgb(98, 89, 89);
+	outline: black 1px solid;
+}
